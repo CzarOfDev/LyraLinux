@@ -1,0 +1,4 @@
+out/
+work/
+*.iso
+*.pkg.tar.zst
