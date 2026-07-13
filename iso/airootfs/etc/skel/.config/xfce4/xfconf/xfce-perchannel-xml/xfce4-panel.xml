@@ -1,0 +1,67 @@
+<?xml version="1.1" encoding="UTF-8"?>
+
+<channel name="xfce4-panel" version="1.0">
+  <property name="configver" type="int" value="2"/>
+  <property name="panels" type="array">
+    <value type="int" value="1"/>
+    <value type="int" value="2"/>
+    <property name="dark-mode" type="bool" value="true"/>
+    <property name="panel-1" type="empty">
+      <property name="position" type="string" value="p=6;x=0;y=0"/>
+      <property name="length" type="uint" value="100"/>
+      <property name="position-locked" type="bool" value="true"/>
+      <property name="icon-size" type="uint" value="16"/>
+      <property name="size" type="uint" value="33"/>
+      <property name="plugin-ids" type="array">
+        <value type="int" value="19"/>
+        <value type="int" value="20"/>
+        <value type="int" value="22"/>
+      </property>
+    </property>
+    <property name="panel-2" type="empty">
+      
+      <property name="position" type="string" value="p=10;x=0;y=0"/>
+      <property name="length" type="uint" value="1"/>
+      <property name="position-locked" type="bool" value="true"/>
+      <property name="size" type="uint" value="48"/>
+      <property name="plugin-ids" type="array">
+        <value type="int" value="23"/>
+        <value type="int" value="14"/>
+        <value type="int" value="11"/>
+        <value type="int" value="24"/>
+      </property>
+    </property>
+  </property>
+  <property name="plugins" type="empty">
+    <property name="plugin-14" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="17839643142.desktop"/>
+      </property>
+    </property>
+    <property name="plugin-11" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="17839643955.desktop"/>
+      </property>
+    </property>
+    <property name="plugin-19" type="string" value="separator">
+      <property name="expand" type="bool" value="true"/>
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-20" type="string" value="clock">
+      <property name="digital-layout" type="uint" value="3"/>
+      <property name="digital-time-font" type="string" value="Sans 17"/>
+    </property>
+    <property name="plugin-22" type="string" value="separator">
+      <property name="expand" type="bool" value="true"/>
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-23" type="string" value="applicationsmenu">
+      <property name="show-button-title" type="bool" value="false"/>
+    </property>
+    <property name="plugin-24" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="17839685848.desktop"/>
+      </property>
+    </property>
+  </property>
+</channel>

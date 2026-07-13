@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Name=Lyra Wallpaper
+Exec=sh -c 'sleep 2; xfconf-query -c xfce4-desktop -p /backdrop/screen0/monitor0/workspace0/last-image -n -t string -s /usr/share/backgrounds/lyra-wallpaper.png; for m in $(xfconf-query -c xfce4-desktop -l | grep last-image); do xfconf-query -c xfce4-desktop -p "$m" -s /usr/share/backgrounds/lyra-wallpaper.png; done'
+Terminal=false
+NoDisplay=true

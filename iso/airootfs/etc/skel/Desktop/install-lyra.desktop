@@ -1,8 +1,8 @@
 [Desktop Entry]
 Type=Application
-Name=Install Lyra Linux
+Name=Install Lyra
 Comment=Install the system to disk
-Exec=sudo -E calamares
-Icon=calamares
+Exec=pkexec calamares
+Icon=/usr/share/pixmaps/lyra.png
 Terminal=false
 Categories=System;

@@ -5,7 +5,7 @@ iso_name="lyra"
 iso_label="LYRA_$(date --date="@${SOURCE_DATE_EPOCH:-$(date +%s)}" +%Y%m)"
 iso_publisher="Lyra Linux <https://github.com/CzarOfDev>"
 iso_application="Lyra Linux Live/Install"
-iso_version="0.1"
+iso_version="1.0"
 install_dir="arch"
 buildmodes=('iso')
 bootmodes=('bios.syslinux'
