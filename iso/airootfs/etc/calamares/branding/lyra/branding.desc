@@ -1,0 +1,35 @@
+---
+componentName: lyra
+
+welcomeStyleCalamares: false
+welcomeExpandingLogo: true
+windowExpanding: normal
+windowSize: 800px,520px
+windowPlacement: center
+navigation: widget
+
+strings:
+    productName:         "Lyra Linux"
+    shortProductName:    "Lyra"
+    version:             "0.1"
+    shortVersion:        "0.1"
+    versionedName:       "Lyra Linux 0.1"
+    shortVersionedName:  "Lyra 0.1"
+    bootloaderEntryName: "Lyra"
+    productUrl:          "https://github.com/CzarOfDev/LyraLinux"
+    supportUrl:          "https://github.com/CzarOfDev/LyraLinux/issues"
+    knownIssuesUrl:      "https://github.com/CzarOfDev/LyraLinux/issues"
+    releaseNotesUrl:     "https://github.com/CzarOfDev/LyraLinux"
+
+images:
+    productLogo:    "logo.png"
+    productIcon:    "logo.png"
+
+style:
+   sidebarBackground:    "#1c2030"
+   sidebarText:          "#ffffff"
+   sidebarTextSelect:    "#8fa6ee"
+   sidebarTextHighlight: "#8fa6ee"
+
+slideshow: "show.qml"
+slideshowAPI: 2

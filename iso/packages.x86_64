@@ -97,3 +97,14 @@ smartmontools
 terminus-font
 kitty-terminfo
 foot-terminfo
+
+# === Programs ===
+# firefox
+os-prober
+
+# === Installer ===
+calamares
+kpmcore
+qt6-svg
+spice-vdagent
+xf86-video-qxl

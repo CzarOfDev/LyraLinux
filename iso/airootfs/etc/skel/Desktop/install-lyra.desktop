@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Install Lyra Linux
+Comment=Install the system to disk
+Exec=sudo -E calamares
+Icon=calamares
+Terminal=false
+Categories=System;
